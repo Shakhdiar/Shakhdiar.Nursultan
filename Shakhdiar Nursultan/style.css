@@ -1,0 +1,140 @@
+/* Стили для body и header остаются без изменений */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #f5f5f5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	height: 50px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.search-bar {
+	display: flex;
+	align-items: center;
+}
+
+.search-bar input {
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.search-bar button {
+	padding: 5px 10px;
+	margin-right: 5px;
+	border: none;
+	background-color: #ff7f50;
+	color: aliceblue;
+	cursor: pointer;
+}
+
+.search-bar button:hover {
+	background-color: #ff6347;
+}
+
+.login a {
+	text-decoration: none;
+}
+
+/* Новый стиль для контейнера контента */
+.content-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+/* Стиль для боковой панели */
+.sidebar {
+	width: 20%;
+	background-color: #f0f0f0;
+	padding: 10px;
+	border-right: 1px solid #ddd;
+}
+
+/* Стиль для основного контента */
+.main-content {
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+/* Стиль для каждого блока контента */
+.content-block {
+	width: 30%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.content-block img {
+	width: 80%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.content-block p {
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+
+.registration-wrapper {
+	max-width: 400px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	background-color: #f9f9f9;
+}
+
+.registration-wrapper h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.registration-wrapper form {
+	display: flex;
+	flex-direction: column;
+}
+
+.registration-wrapper label {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.registration-wrapper input {
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.registration-wrapper button {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #ff7f50;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.registration-wrapper button:hover {
+	background-color: #ff6347;
+}
